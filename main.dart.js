@@ -86806,7 +86806,7 @@ A.as2.prototype={
 $1(a){return new A.p0($.as())},
 $S:517}
 A.as3.prototype={
-$1(a){var s=A.b(["email"],t.s)
+$1(a){var s=A.b(["email","https://www.googleapis.com/auth/contacts.readonly"],t.s)
 s=new A.qt(B.i6,new A.a6i(s,"140497208022-bnk7cdar7ad1po8nrv6015iqssbu43ap.apps.googleusercontent.com",new A.h3(null,null,t.io)),$.as())
 s.y6()
 return s},
