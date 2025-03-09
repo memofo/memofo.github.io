@@ -91370,7 +91370,7 @@ $S:12}
 A.Ib.prototype={
 H(){return"signState."+this.b}}
 A.qP.prototype={
-en(){var s=0,r=A.E(t.H),q,p=2,o,n=this,m,l,k,j,i
+en(){var s=0,r=A.E(t.H),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$en=A.A(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:A.ci().$1("Trying to sign-in")
 n.b=B.is
@@ -91384,26 +91384,32 @@ case 8:p=2
 s=6
 break
 case 4:p=3
-i=o
-m=A.a3(i)
+h=o
+m=A.a3(h)
 n.b=B.lL
 A.ci().$1(J.cj(m))
 s=6
 break
 case 3:s=2
 break
-case 6:k=n.e
-k=k==null?null:k.gux()
-s=10
-return A.J(t.nu.b(k)?k:A.eA(k,t.Op),$async$en)
-case 10:j=b
+case 6:k=n.a
+s=k?10:12
+break
+case 10:j=n.e
+j=j==null?null:j.gux()
+s=13
+return A.J(t.nu.b(j)?j:A.eA(j,t.Op),$async$en)
+case 13:i=b
 s=11
+break
+case 12:i=null
+case 11:s=14
 return A.J(n.u8(),$async$en)
-case 11:if(j==null){n.b=B.lL
+case 14:if(k&&i==null){n.b=B.lL
 A.ci().$1("Failed to sign in")
 n.a4()
 s=1
-break}n.yi(j)
+break}n.yi(i)
 n.b=B.As
 n.a4()
 case 1:return A.C(q,r)
@@ -91441,7 +91447,7 @@ break
 case 1:return A.C(q,r)
 case 2:return A.B(o,r)}})
 return A.D($async$u8,r)},
-q9(){var s=0,r=A.E(t.H),q,p=this,o,n
+q9(){var s=0,r=A.E(t.H),q,p=this,o,n,m
 var $async$q9=A.A(function(a,b){if(a===1)return A.B(b,r)
 while(true)switch(s){case 0:p.b=B.is
 p.a4()
@@ -91452,34 +91458,41 @@ return A.J(p.u8(),$async$q9)
 case 3:s=4
 return A.J(p.c.fW(),$async$q9)
 case 4:o=p.e=b
-o=o==null?null:o.gux()
-s=5
+n=p.a
+s=n?5:7
+break
+case 5:o=o==null?null:o.gux()
+s=8
 return A.J(t.nu.b(o)?o:A.eA(o,t.Op),$async$q9)
-case 5:n=b
-if(n==null){p.b=B.lL
+case 8:m=b
+s=6
+break
+case 7:m=null
+case 6:if(n&&m==null){p.b=B.lL
 p.a4()
 s=1
-break}p.yi(n)
+break}p.yi(m)
 p.b=B.As
 p.a4()
 case 1:return A.C(q,r)}})
 return A.D($async$q9,r)},
 yi(a){return this.aaR(a)},
-aaR(a){var s=0,r=A.E(t.H),q,p=this,o,n,m,l,k,j,i
+aaR(a){var s=0,r=A.E(t.H),q,p=this,o,n,m,l,k,j
 var $async$yi=A.A(function(b,c){if(b===1)return A.B(c,r)
-while(true)switch(s){case 0:i=p.e
-if(i==null){s=1
-break}o=i.c
-n=a.a.b
-m=n==null
-l=m?"fallbackTokenID":n
-k=i.b
-i=i.a
-if(i==null)i=""
-j=A.ax_()
-if(m)n=p.e.c
-j.a.ke(0,n)
-p.d=new A.Qo(o,l,k,i,j,A.a29(null))
+while(true)switch(s){case 0:j=p.e
+if(j==null){s=1
+break}o=j.c
+n=a==null
+m=n?null:a.a.b
+if(m==null)m="fallbackTokenID"
+l=j.b
+j=j.a
+if(j==null)j=""
+k=A.ax_()
+n=n?null:a.a.b
+if(n==null)n=p.e.c
+k.a.ke(0,n)
+p.d=new A.Qo(o,m,l,j,k,A.a29(null))
 case 1:return A.C(q,r)}})
 return A.D($async$yi,r)},
 $ia2:1}
