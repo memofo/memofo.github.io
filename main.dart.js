@@ -91455,20 +91455,28 @@ A.ci().$1("Trying to sign-in silently")
 A.ci().$1("Signing silently.")
 s=3
 return A.J(p.u8(),$async$q9)
-case 3:s=4
-return A.J(p.c.fW(),$async$q9)
-case 4:o=p.e=b
+case 3:o=p.c
+n=o.y
+s=n==null?4:6
+break
+case 4:s=7
+return A.J(o.fW(),$async$q9)
+case 7:s=5
+break
+case 6:b=n
+case 5:o=b
+p.e=o
 n=p.a
-s=n?5:7
+s=n?8:10
 break
-case 5:o=o==null?null:o.gux()
-s=8
+case 8:o=o==null?null:o.gux()
+s=11
 return A.J(t.nu.b(o)?o:A.eA(o,t.Op),$async$q9)
-case 8:m=b
-s=6
+case 11:m=b
+s=9
 break
-case 7:m=null
-case 6:if(n&&m==null){p.b=B.lL
+case 10:m=null
+case 9:if(n&&m==null){p.b=B.lL
 p.a4()
 s=1
 break}p.yi(m)
