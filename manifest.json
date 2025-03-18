@@ -3,7 +3,7 @@
     "short_name": "Memo",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "0xFF56FFC7",
+    "background_color": "#56FFC7",
     "theme_color": "#hexcode",
     "description": "A word memorizing app",
     "orientation": "portrait-primary",
