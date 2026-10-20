@@ -1,0 +1,1703 @@
+{
+  "version": 1,
+  "lastProcessedClass": 88,
+  "topics": [
+    {
+      "id": "present-perfect",
+      "name": "Present perfect vs past simple",
+      "group": "Verb tenses",
+      "level": "B2",
+      "sources": [
+        "56",
+        "79"
+      ]
+    },
+    {
+      "id": "perfect-tenses",
+      "name": "Perfect & perfect continuous tenses",
+      "group": "Verb tenses",
+      "level": "B2",
+      "sources": [
+        "16",
+        "56",
+        "79"
+      ]
+    },
+    {
+      "id": "modals-deduction",
+      "name": "Modals of deduction",
+      "group": "Modals",
+      "level": "B2",
+      "sources": [
+        "29",
+        "74"
+      ]
+    },
+    {
+      "id": "modal-basics",
+      "name": "Modal basics",
+      "group": "Modals",
+      "level": "B1",
+      "sources": [
+        "extra"
+      ]
+    },
+    {
+      "id": "verb-patterns",
+      "name": "Verb patterns: gerund vs infinitive",
+      "group": "Verbs",
+      "level": "B2",
+      "sources": [
+        "23"
+      ]
+    },
+    {
+      "id": "get-delexical",
+      "name": "Get + delexical verbs",
+      "group": "Verbs",
+      "level": "B2",
+      "sources": [
+        "51",
+        "57"
+      ]
+    },
+    {
+      "id": "passive-voice",
+      "name": "Passive voice",
+      "group": "Sentence structure",
+      "level": "B2",
+      "sources": [
+        "80"
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Questions & question tags",
+      "group": "Sentence structure",
+      "level": "B2",
+      "sources": [
+        "5",
+        "42",
+        "83"
+      ]
+    },
+    {
+      "id": "relative-clauses",
+      "name": "Relative clauses",
+      "group": "Sentence structure",
+      "level": "B2",
+      "sources": [
+        "25",
+        "42"
+      ]
+    },
+    {
+      "id": "reported-speech",
+      "name": "Reported speech",
+      "group": "Sentence structure",
+      "level": "B2",
+      "sources": [
+        "extra"
+      ]
+    },
+    {
+      "id": "pronouns",
+      "name": "Pronouns & possessives",
+      "group": "Nouns & determiners",
+      "level": "B1",
+      "sources": [
+        "31",
+        "48"
+      ]
+    },
+    {
+      "id": "articles",
+      "name": "Articles",
+      "group": "Nouns & determiners",
+      "level": "B2",
+      "sources": [
+        "extra"
+      ]
+    },
+    {
+      "id": "countable-uncountable",
+      "name": "Countable, uncountable & plurals",
+      "group": "Nouns & determiners",
+      "level": "B1",
+      "sources": [
+        "extra"
+      ]
+    },
+    {
+      "id": "adjective-order",
+      "name": "Adjective order & compound adjectives",
+      "group": "Adjectives & adverbs",
+      "level": "B2",
+      "sources": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "intensifiers",
+      "name": "Intensifiers & gradable adjectives",
+      "group": "Adjectives & adverbs",
+      "level": "B2",
+      "sources": [
+        "27",
+        "59",
+        "62"
+      ]
+    },
+    {
+      "id": "ed-ing-adjectives",
+      "name": "-ed vs -ing adjectives",
+      "group": "Adjectives & adverbs",
+      "level": "B1",
+      "sources": [
+        "66"
+      ]
+    },
+    {
+      "id": "comparatives",
+      "name": "Comparatives & superlatives",
+      "group": "Adjectives & adverbs",
+      "level": "B1",
+      "sources": [
+        "30"
+      ]
+    },
+    {
+      "id": "adverb-position",
+      "name": "Adverb position & adverbial phrases",
+      "group": "Adjectives & adverbs",
+      "level": "B2",
+      "sources": [
+        "25",
+        "50"
+      ]
+    },
+    {
+      "id": "prepositions",
+      "name": "Prepositions",
+      "group": "Prepositions & linking",
+      "level": "B2",
+      "sources": [
+        "52",
+        "63"
+      ]
+    },
+    {
+      "id": "linking-words",
+      "name": "Linking words & transitions",
+      "group": "Prepositions & linking",
+      "level": "B2",
+      "sources": [
+        "55",
+        "88"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "present-perfect-001",
+      "topic": "present-perfect",
+      "explanation": "Life experience up to now, with no finished time: present perfect. Adverbs like 'never' go between 'have' and the participle.",
+      "multipleChoice": {
+        "prompt": "I ___ to London, but I'd love to go.",
+        "options": [
+          "have never been",
+          "never have been",
+          "never went"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I ___ (never / be) to London, but I'd love to go.",
+        "accepted": [
+          "have never been"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I never have been to London.",
+        "accepted": [
+          "I have never been to London."
+        ]
+      },
+      "transformation": {
+        "original": "This is my first time in London.",
+        "keyword": "never",
+        "before": "I",
+        "after": "London before.",
+        "maxWords": 5,
+        "accepted": [
+          "have never been to",
+          "have never been in"
+        ]
+      }
+    },
+    {
+      "id": "present-perfect-002",
+      "topic": "present-perfect",
+      "explanation": "Something that started in the past and is still true: present perfect + for (a duration) or since (a starting point).",
+      "multipleChoice": {
+        "prompt": "I ___ at Google for three years.",
+        "options": [
+          "have worked",
+          "work",
+          "worked since"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I ___ (work) at Google since 2022.",
+        "accepted": [
+          "have worked",
+          "have been working"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I work at Google since 2022.",
+        "accepted": [
+          "I have worked at Google since 2022.",
+          "I have been working at Google since 2022."
+        ]
+      },
+      "transformation": {
+        "original": "I started working at Google three years ago.",
+        "keyword": "for",
+        "before": "I",
+        "after": "three years.",
+        "maxWords": 6,
+        "accepted": [
+          "have worked at Google for",
+          "have been working at Google for"
+        ]
+      }
+    },
+    {
+      "id": "perfect-tenses-001",
+      "topic": "perfect-tenses",
+      "explanation": "Past perfect (had + participle) shows which of two past actions happened first.",
+      "multipleChoice": {
+        "prompt": "When I arrived at the station, the train ___.",
+        "options": [
+          "had already left",
+          "has already left",
+          "already left"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "When I arrived at the station, the train ___ (already / leave).",
+        "accepted": [
+          "had already left"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "When I arrived, the meeting has already started.",
+        "accepted": [
+          "When I arrived, the meeting had already started."
+        ]
+      },
+      "transformation": {
+        "original": "The train left and then I arrived at the station.",
+        "keyword": "had",
+        "before": "When I arrived at the station, the train",
+        "after": ".",
+        "maxWords": 3,
+        "accepted": [
+          "had left",
+          "had already left"
+        ]
+      }
+    },
+    {
+      "id": "perfect-tenses-002",
+      "topic": "perfect-tenses",
+      "explanation": "Future perfect continuous (will have been + -ing) describes how long an action will have lasted by a point in the future.",
+      "multipleChoice": {
+        "prompt": "By next year, I ___ English with Tay for three years.",
+        "options": [
+          "will have been studying",
+          "will be studied",
+          "am studying"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "By next year, I ___ (study) English with Tay for three years.",
+        "accepted": [
+          "will have been studying"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "By next year, I will be studying English for three years.",
+        "accepted": [
+          "By next year, I will have been studying English for three years."
+        ]
+      },
+      "transformation": {
+        "original": "I started studying English with Tay two years ago, and I'll continue next year.",
+        "keyword": "been",
+        "before": "By next year, I",
+        "after": "English with Tay for three years.",
+        "maxWords": 5,
+        "accepted": [
+          "will have been studying"
+        ]
+      }
+    },
+    {
+      "id": "modals-deduction-001",
+      "topic": "modals-deduction",
+      "explanation": "Almost certain about the past: must have + participle. Almost certain it's impossible: can't have + participle.",
+      "multipleChoice": {
+        "prompt": "The streets are wet. It ___ last night.",
+        "options": [
+          "must have rained",
+          "must rained",
+          "should rain"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "The streets are wet. It ___ (must / rain) last night.",
+        "accepted": [
+          "must have rained"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The streets are wet. It must rained last night.",
+        "accepted": [
+          "The streets are wet. It must have rained last night."
+        ]
+      },
+      "transformation": {
+        "original": "I'm sure it rained last night.",
+        "keyword": "must",
+        "before": "It",
+        "after": "last night.",
+        "maxWords": 3,
+        "accepted": [
+          "must have rained"
+        ]
+      }
+    },
+    {
+      "id": "modals-deduction-002",
+      "topic": "modals-deduction",
+      "explanation": "To say something is impossible in the present, use can't be, not mustn't be.",
+      "multipleChoice": {
+        "prompt": "He ___ hungry. He had a huge lunch an hour ago.",
+        "options": [
+          "can't be",
+          "mustn't be",
+          "doesn't must be"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "He ___ hungry. He had a huge lunch an hour ago.",
+        "accepted": [
+          "can't be",
+          "cannot be",
+          "couldn't be"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "He mustn't be hungry. He had a huge lunch an hour ago.",
+        "accepted": [
+          "He can't be hungry. He had a huge lunch an hour ago.",
+          "He couldn't be hungry. He had a huge lunch an hour ago."
+        ]
+      },
+      "transformation": {
+        "original": "I'm sure he isn't hungry; he just had lunch.",
+        "keyword": "be",
+        "before": "He",
+        "after": "hungry; he just had lunch.",
+        "maxWords": 3,
+        "accepted": [
+          "can't be",
+          "couldn't be"
+        ]
+      }
+    },
+    {
+      "id": "modal-basics-001",
+      "topic": "modal-basics",
+      "explanation": "Two modals can't go together (would can). Use a modal + 'be able to' instead.",
+      "multipleChoice": {
+        "prompt": "If I really liked the city, maybe I ___ live there.",
+        "options": [
+          "would be able to",
+          "would can",
+          "would could"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "If I really liked the city, maybe I would ___ (able) live there.",
+        "accepted": [
+          "be able to"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "Maybe I would can live there.",
+        "accepted": [
+          "Maybe I would be able to live there.",
+          "Maybe I could live there."
+        ]
+      },
+      "transformation": {
+        "original": "Maybe living there would be possible for me.",
+        "keyword": "able",
+        "before": "Maybe I",
+        "after": "live there.",
+        "maxWords": 4,
+        "accepted": [
+          "would be able to",
+          "might be able to"
+        ]
+      }
+    },
+    {
+      "id": "modal-basics-002",
+      "topic": "modal-basics",
+      "explanation": "Would like is followed by 'to' + verb. Modals like can, must, should take the verb with no 'to'.",
+      "multipleChoice": {
+        "prompt": "First, I would like ___ the city.",
+        "options": [
+          "to get to know",
+          "just know",
+          "knowing"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I would like ___ (visit) London someday.",
+        "accepted": [
+          "to visit"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I would like visit London someday.",
+        "accepted": [
+          "I would like to visit London someday.",
+          "I'd like to visit London someday."
+        ]
+      },
+      "transformation": {
+        "original": "I want to visit London someday.",
+        "keyword": "like",
+        "before": "I",
+        "after": "London someday.",
+        "maxWords": 5,
+        "accepted": [
+          "would like to visit",
+          "would really like to visit"
+        ]
+      }
+    },
+    {
+      "id": "verb-patterns-001",
+      "topic": "verb-patterns",
+      "explanation": "Start, begin and continue can take -ing or to + verb, but never the bare verb.",
+      "multipleChoice": {
+        "prompt": "I think the best approach is to start ___ Coke Zero.",
+        "options": [
+          "drinking",
+          "drink",
+          "drank"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I think the best approach is to start ___ (drink) Coke Zero.",
+        "accepted": [
+          "drinking",
+          "to drink"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The best approach is start drink Coke Zero.",
+        "accepted": [
+          "The best approach is to start drinking Coke Zero.",
+          "The best approach is to start to drink Coke Zero.",
+          "The best approach is starting to drink Coke Zero.",
+          "The best approach is starting drinking Coke Zero."
+        ]
+      },
+      "transformation": {
+        "original": "You should drink less soda.",
+        "keyword": "suggest",
+        "before": "I",
+        "after": "less soda.",
+        "maxWords": 4,
+        "accepted": [
+          "suggest drinking",
+          "suggest that you drink",
+          "suggest you drink",
+          "would suggest drinking"
+        ]
+      }
+    },
+    {
+      "id": "verb-patterns-002",
+      "topic": "verb-patterns",
+      "explanation": "Avoid, enjoy, mind, finish and suggest are followed by -ing. Decide, hope, plan and want are followed by to + verb.",
+      "multipleChoice": {
+        "prompt": "We decided ___ by train.",
+        "options": [
+          "to travel",
+          "travelling",
+          "travel"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I usually avoid ___ (work) late on Fridays.",
+        "accepted": [
+          "working"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I enjoy to play foot volley on the beach.",
+        "accepted": [
+          "I enjoy playing foot volley on the beach."
+        ]
+      },
+      "transformation": {
+        "original": "I don't like waking up early.",
+        "keyword": "enjoy",
+        "before": "I",
+        "after": "early.",
+        "maxWords": 5,
+        "accepted": [
+          "don't enjoy waking up",
+          "do not enjoy waking up",
+          "don't enjoy getting up"
+        ]
+      }
+    },
+    {
+      "id": "get-delexical-001",
+      "topic": "get-delexical",
+      "explanation": "Fixed pairs: make a decision, make a mistake, do homework, do a favour, take a break, have a shower.",
+      "multipleChoice": {
+        "prompt": "We need to ___ a decision before Friday.",
+        "options": [
+          "make",
+          "do",
+          "take"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "Let's ___ a break and get some coffee.",
+        "accepted": [
+          "take",
+          "have"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "Can you make me a favour?",
+        "accepted": [
+          "Can you do me a favour?",
+          "Can you do me a favor?"
+        ]
+      },
+      "transformation": {
+        "original": "We need to decide before Friday.",
+        "keyword": "make",
+        "before": "We need to",
+        "after": "before Friday.",
+        "maxWords": 3,
+        "accepted": [
+          "make a decision"
+        ]
+      }
+    },
+    {
+      "id": "get-delexical-002",
+      "topic": "get-delexical",
+      "explanation": "Get + adjective often means 'become': get tired, get married, get better.",
+      "multipleChoice": {
+        "prompt": "My wife and I ___ married in 2019.",
+        "options": [
+          "got",
+          "became",
+          "did"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I always ___ (get) tired after foot volley.",
+        "accepted": [
+          "get"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I became tired after the game.",
+        "accepted": [
+          "I got tired after the game.",
+          "I got tired after the match."
+        ]
+      },
+      "transformation": {
+        "original": "We became husband and wife in 2019.",
+        "keyword": "got",
+        "before": "We",
+        "after": "in 2019.",
+        "maxWords": 2,
+        "accepted": [
+          "got married"
+        ]
+      }
+    },
+    {
+      "id": "passive-voice-001",
+      "topic": "passive-voice",
+      "explanation": "Passive: be + past participle. Use it when the action matters more than who did it.",
+      "multipleChoice": {
+        "prompt": "The best paper award ___ to me at the conference.",
+        "options": [
+          "was given",
+          "was give",
+          "gave"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "The best paper award ___ (give) to me at the conference.",
+        "accepted": [
+          "was given"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The paper was present at the conference.",
+        "accepted": [
+          "The paper was presented at the conference."
+        ]
+      },
+      "transformation": {
+        "original": "They gave me the best paper award.",
+        "keyword": "was",
+        "before": "I",
+        "after": "the best paper award.",
+        "maxWords": 2,
+        "accepted": [
+          "was given"
+        ]
+      }
+    },
+    {
+      "id": "passive-voice-002",
+      "topic": "passive-voice",
+      "explanation": "Present perfect passive: has/have been + past participle.",
+      "multipleChoice": {
+        "prompt": "The new feature ___ yet.",
+        "options": [
+          "hasn't been released",
+          "hasn't released",
+          "didn't released"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "The new feature ___ (not / release) yet.",
+        "accepted": [
+          "hasn't been released",
+          "has not been released"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The bug has been fix by the team.",
+        "accepted": [
+          "The bug has been fixed by the team."
+        ]
+      },
+      "transformation": {
+        "original": "The team hasn't fixed the bug yet.",
+        "keyword": "been",
+        "before": "The bug",
+        "after": "yet.",
+        "maxWords": 4,
+        "accepted": [
+          "hasn't been fixed",
+          "has not been fixed"
+        ]
+      }
+    },
+    {
+      "id": "questions-001",
+      "topic": "questions",
+      "explanation": "A question needs only one auxiliary. With 'will', you don't add 'do' or 'does'.",
+      "multipleChoice": {
+        "prompt": "___ proficient if they master this list?",
+        "options": [
+          "Will that person be",
+          "Does that person will be",
+          "That person will be"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "Where ___ you go on your last trip?",
+        "accepted": [
+          "did"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "Does that person will be proficient?",
+        "accepted": [
+          "Will that person be proficient?"
+        ]
+      },
+      "transformation": {
+        "original": "I'd like to know where the station is.",
+        "keyword": "is",
+        "before": "Where",
+        "after": "?",
+        "maxWords": 3,
+        "accepted": [
+          "is the station"
+        ]
+      }
+    },
+    {
+      "id": "questions-002",
+      "topic": "questions",
+      "explanation": "Question tags: positive sentence, negative tag (and the opposite), using the same auxiliary.",
+      "multipleChoice": {
+        "prompt": "You've been to Bahia, ___?",
+        "options": [
+          "haven't you",
+          "didn't you",
+          "isn't it"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "She doesn't like coffee, ___?",
+        "accepted": [
+          "does she"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "You work at Google, isn't it?",
+        "accepted": [
+          "You work at Google, don't you?"
+        ]
+      },
+      "transformation": {
+        "original": "Where does she live?",
+        "keyword": "lives",
+        "before": "Do you know where",
+        "after": "?",
+        "maxWords": 2,
+        "accepted": [
+          "she lives"
+        ]
+      }
+    },
+    {
+      "id": "relative-clauses-001",
+      "topic": "relative-clauses",
+      "explanation": "Who/that for the subject of the clause. 'Whom' is only for the object (the prince whom she married).",
+      "multipleChoice": {
+        "prompt": "I didn't know the prince ___ married the actress.",
+        "options": [
+          "who",
+          "whom",
+          "which"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "Taylor, ___ microphone was taken, was shocked.",
+        "accepted": [
+          "whose"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I didn't know the prince whom married the actress.",
+        "accepted": [
+          "I didn't know the prince who married the actress.",
+          "I didn't know the prince that married the actress."
+        ]
+      },
+      "transformation": {
+        "original": "Bartolomeu is a bar. It has a tunnel to the church.",
+        "keyword": "which",
+        "before": "Bartolomeu is a bar",
+        "after": "a tunnel to the church.",
+        "maxWords": 2,
+        "accepted": [
+          "which has"
+        ]
+      }
+    },
+    {
+      "id": "relative-clauses-002",
+      "topic": "relative-clauses",
+      "explanation": "Where for places, when for times, whose for possession.",
+      "multipleChoice": {
+        "prompt": "Ilhéus is the city ___ I presented my paper.",
+        "options": [
+          "where",
+          "which",
+          "when"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "2019 was the year ___ we got married.",
+        "accepted": [
+          "when",
+          "that",
+          "in which"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "That's the colleague which laptop was stolen.",
+        "accepted": [
+          "That's the colleague whose laptop was stolen."
+        ]
+      },
+      "transformation": {
+        "original": "I presented my paper in Ilhéus.",
+        "keyword": "where",
+        "before": "Ilhéus is the city",
+        "after": "my paper.",
+        "maxWords": 3,
+        "accepted": [
+          "where I presented"
+        ]
+      }
+    },
+    {
+      "id": "reported-speech-001",
+      "topic": "reported-speech",
+      "explanation": "In reported speech, the tense usually moves back: 'I am' → he said he was.",
+      "multipleChoice": {
+        "prompt": "\"I'm tired.\" → He said he ___ tired.",
+        "options": [
+          "was",
+          "is being",
+          "has"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "\"I will call you.\" → She said she ___ call me.",
+        "accepted": [
+          "would"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "He told that he was tired.",
+        "accepted": [
+          "He said that he was tired.",
+          "He told me that he was tired.",
+          "He told me he was tired.",
+          "He said he was tired."
+        ]
+      },
+      "transformation": {
+        "original": "\"I'm working from home today,\" my manager said.",
+        "keyword": "was",
+        "before": "My manager said",
+        "after": "from home that day.",
+        "maxWords": 4,
+        "accepted": [
+          "he was working",
+          "she was working",
+          "that he was working",
+          "that she was working"
+        ]
+      }
+    },
+    {
+      "id": "reported-speech-002",
+      "topic": "reported-speech",
+      "explanation": "Reported questions use normal word order (subject + verb) and no question mark.",
+      "multipleChoice": {
+        "prompt": "She asked me where ___.",
+        "options": [
+          "I worked",
+          "did I work",
+          "do I work"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "\"Do you like sushi?\" → He asked me ___ I liked sushi.",
+        "accepted": [
+          "if",
+          "whether"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "She asked me where did I work.",
+        "accepted": [
+          "She asked me where I worked."
+        ]
+      },
+      "transformation": {
+        "original": "\"Are you coming to the party?\" she asked me.",
+        "keyword": "if",
+        "before": "She asked me",
+        "after": "to the party.",
+        "maxWords": 4,
+        "accepted": [
+          "if I was coming"
+        ]
+      }
+    },
+    {
+      "id": "pronouns-001",
+      "topic": "pronouns",
+      "explanation": "Your (possessive) vs you (pronoun). Before a noun, use the possessive: your boyfriend.",
+      "multipleChoice": {
+        "prompt": "___ boyfriend should spend more time with you.",
+        "options": [
+          "Your",
+          "You",
+          "You're"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "He should go out with ___ friends and you together.",
+        "accepted": [
+          "his"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "You boyfriend has to go out with you more.",
+        "accepted": [
+          "Your boyfriend has to go out with you more."
+        ]
+      },
+      "transformation": {
+        "original": "That laptop belongs to me.",
+        "keyword": "mine",
+        "before": "That laptop",
+        "after": ".",
+        "maxWords": 2,
+        "accepted": [
+          "is mine"
+        ]
+      }
+    },
+    {
+      "id": "pronouns-002",
+      "topic": "pronouns",
+      "explanation": "Indefinite pronouns: use 'anything/anyone' in questions and negatives, 'something/someone' in positive sentences.",
+      "multipleChoice": {
+        "prompt": "I didn't buy ___ on the trip.",
+        "options": [
+          "anything",
+          "something",
+          "nothing"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "Is there ___ I can do to help?",
+        "accepted": [
+          "anything"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I didn't see nobody at the office.",
+        "accepted": [
+          "I didn't see anybody at the office.",
+          "I didn't see anyone at the office.",
+          "I saw nobody at the office.",
+          "I saw no one at the office."
+        ]
+      },
+      "transformation": {
+        "original": "There was nobody at the office.",
+        "keyword": "anyone",
+        "before": "There",
+        "after": "at the office.",
+        "maxWords": 3,
+        "accepted": [
+          "wasn't anyone",
+          "was not anyone"
+        ]
+      }
+    },
+    {
+      "id": "articles-001",
+      "topic": "articles",
+      "explanation": "No article when you talk about things in general (people, life, money), unlike Portuguese.",
+      "multipleChoice": {
+        "prompt": "___ is not everything.",
+        "options": [
+          "Money",
+          "The money",
+          "A money"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I love ___ (dogs / the dogs) in general.",
+        "accepted": [
+          "dogs"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The life is too short to work all the time.",
+        "accepted": [
+          "Life is too short to work all the time."
+        ]
+      },
+      "transformation": {
+        "original": "In general, I love dogs.",
+        "keyword": "love",
+        "before": "I",
+        "after": ".",
+        "maxWords": 2,
+        "accepted": [
+          "love dogs"
+        ]
+      }
+    },
+    {
+      "id": "articles-002",
+      "topic": "articles",
+      "explanation": "Use 'a/an' with jobs and with a singular thing mentioned for the first time.",
+      "multipleChoice": {
+        "prompt": "I'm ___ software engineer.",
+        "options": [
+          "a",
+          "the",
+          "-"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "She works as ___ engineer at Google.",
+        "accepted": [
+          "an"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I'm software engineer at Google.",
+        "accepted": [
+          "I'm a software engineer at Google."
+        ]
+      },
+      "transformation": {
+        "original": "My job is engineering.",
+        "keyword": "an",
+        "before": "I'm",
+        "after": ".",
+        "maxWords": 2,
+        "accepted": [
+          "an engineer"
+        ]
+      }
+    },
+    {
+      "id": "countable-uncountable-001",
+      "topic": "countable-uncountable",
+      "explanation": "Advice, information, news and feedback are uncountable: no 'a' and no plural.",
+      "multipleChoice": {
+        "prompt": "Can I give you ___?",
+        "options": [
+          "some advice",
+          "an advice",
+          "some advices"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I don't have ___ (many / much) tokens left.",
+        "accepted": [
+          "many"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "She gave me a good advice.",
+        "accepted": [
+          "She gave me some good advice.",
+          "She gave me good advice.",
+          "She gave me a good piece of advice.",
+          "She gave me a piece of good advice."
+        ]
+      },
+      "transformation": {
+        "original": "I don't have many tokens left.",
+        "keyword": "few",
+        "before": "I have",
+        "after": "left.",
+        "maxWords": 4,
+        "accepted": [
+          "very few tokens",
+          "few tokens",
+          "only a few tokens"
+        ]
+      }
+    },
+    {
+      "id": "countable-uncountable-002",
+      "topic": "countable-uncountable",
+      "explanation": "Words ending in -f/-fe often change to -ves in the plural: wife → wives, life → lives, knife → knives.",
+      "multipleChoice": {
+        "prompt": "The old men went to church with their ___.",
+        "options": [
+          "wives",
+          "wifes",
+          "wife's"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "Cats have nine ___ (life).",
+        "accepted": [
+          "lives"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The old men went to the church with their wifes.",
+        "accepted": [
+          "The old men went to the church with their wives.",
+          "The old men went to church with their wives."
+        ]
+      },
+      "transformation": {
+        "original": "There isn't much traffic today.",
+        "keyword": "cars",
+        "before": "There aren't",
+        "after": "today.",
+        "maxWords": 4,
+        "accepted": [
+          "many cars",
+          "a lot of cars"
+        ]
+      }
+    },
+    {
+      "id": "adjective-order-001",
+      "topic": "adjective-order",
+      "explanation": "Order: opinion, size, age, shape, colour, origin, material, purpose + noun.",
+      "multipleChoice": {
+        "prompt": "She bought a ___ table.",
+        "options": [
+          "beautiful old wooden",
+          "wooden old beautiful",
+          "old beautiful wooden"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "We stayed in a ___ (old / small / charming) hotel.",
+        "accepted": [
+          "charming small old"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "He drives a red big car.",
+        "accepted": [
+          "He drives a big red car."
+        ]
+      },
+      "transformation": {
+        "original": "The car is big and it's red.",
+        "keyword": "big",
+        "before": "It's a",
+        "after": "car.",
+        "maxWords": 2,
+        "accepted": [
+          "big red"
+        ]
+      }
+    },
+    {
+      "id": "adjective-order-002",
+      "topic": "adjective-order",
+      "explanation": "Compound adjectives before a noun use a hyphen and a singular noun: a three-year project, a world-famous singer.",
+      "multipleChoice": {
+        "prompt": "It was a ___ project.",
+        "options": [
+          "three-year",
+          "three-years",
+          "three years"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "Google builds ___ (user / friendly) products.",
+        "accepted": [
+          "user-friendly"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "We had a two-hours meeting.",
+        "accepted": [
+          "We had a two-hour meeting."
+        ]
+      },
+      "transformation": {
+        "original": "The meeting lasted two hours.",
+        "keyword": "two-hour",
+        "before": "It was a",
+        "after": ".",
+        "maxWords": 2,
+        "accepted": [
+          "two-hour meeting"
+        ]
+      }
+    },
+    {
+      "id": "intensifiers-001",
+      "topic": "intensifiers",
+      "explanation": "So + adjective (so good). Such + (a) adjective + noun (such a good trip).",
+      "multipleChoice": {
+        "prompt": "It was ___ amazing trip!",
+        "options": [
+          "such an",
+          "so",
+          "so an"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "The food was ___ good that we went back the next day.",
+        "accepted": [
+          "so"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "It was so a good conference.",
+        "accepted": [
+          "It was such a good conference.",
+          "The conference was so good."
+        ]
+      },
+      "transformation": {
+        "original": "The trip was so amazing.",
+        "keyword": "such",
+        "before": "It was",
+        "after": ".",
+        "maxWords": 4,
+        "accepted": [
+          "such an amazing trip"
+        ]
+      }
+    },
+    {
+      "id": "intensifiers-002",
+      "topic": "intensifiers",
+      "explanation": "Extreme (ungradable) adjectives like amazing, exhausted, freezing go with absolutely, not very.",
+      "multipleChoice": {
+        "prompt": "After the match I was ___ exhausted.",
+        "options": [
+          "absolutely",
+          "very",
+          "a bit"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "The water was ___ freezing! (very / absolutely)",
+        "accepted": [
+          "absolutely"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The view was very amazing.",
+        "accepted": [
+          "The view was absolutely amazing.",
+          "The view was amazing.",
+          "The view was really amazing."
+        ]
+      },
+      "transformation": {
+        "original": "I was extremely tired after the trip.",
+        "keyword": "absolutely",
+        "before": "I was",
+        "after": "after the trip.",
+        "maxWords": 2,
+        "accepted": [
+          "absolutely exhausted"
+        ]
+      }
+    },
+    {
+      "id": "ed-ing-adjectives-001",
+      "topic": "ed-ing-adjectives",
+      "explanation": "-ed describes how a person feels (bored). -ing describes what causes the feeling (boring).",
+      "multipleChoice": {
+        "prompt": "The meeting was so long that I got ___.",
+        "options": [
+          "bored",
+          "boring",
+          "bore"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "The meeting was really ___ (bore).",
+        "accepted": [
+          "boring"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I'm very interesting in AI.",
+        "accepted": [
+          "I'm very interested in AI."
+        ]
+      },
+      "transformation": {
+        "original": "The movie bored me.",
+        "keyword": "boring",
+        "before": "The movie",
+        "after": ".",
+        "maxWords": 2,
+        "accepted": [
+          "was boring"
+        ]
+      }
+    },
+    {
+      "id": "ed-ing-adjectives-002",
+      "topic": "ed-ing-adjectives",
+      "explanation": "Surprised/surprising, excited/exciting, tired/tiring: the -ing word is the cause.",
+      "multipleChoice": {
+        "prompt": "Winning the award was really ___.",
+        "options": [
+          "exciting",
+          "excited",
+          "excite"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I was ___ (surprise) to win the best paper award.",
+        "accepted": [
+          "surprised"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "The trip was very tired.",
+        "accepted": [
+          "The trip was very tiring."
+        ]
+      },
+      "transformation": {
+        "original": "The news surprised everyone.",
+        "keyword": "surprising",
+        "before": "The news",
+        "after": "for everyone.",
+        "maxWords": 2,
+        "accepted": [
+          "was surprising"
+        ]
+      }
+    },
+    {
+      "id": "comparatives-001",
+      "topic": "comparatives",
+      "explanation": "Short adjectives: -er/-est (cheaper). Long ones: more/most (more expensive). Never both.",
+      "multipleChoice": {
+        "prompt": "London is ___ than Ilhéus.",
+        "options": [
+          "more expensive",
+          "expensiver",
+          "more expensiver"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "This is the ___ (good) acarajé I've ever had.",
+        "accepted": [
+          "best"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "This hotel is more cheaper than the other one.",
+        "accepted": [
+          "This hotel is cheaper than the other one."
+        ]
+      },
+      "transformation": {
+        "original": "No city is more beautiful than Rio.",
+        "keyword": "most",
+        "before": "Rio is",
+        "after": "city.",
+        "maxWords": 4,
+        "accepted": [
+          "the most beautiful"
+        ]
+      }
+    },
+    {
+      "id": "comparatives-002",
+      "topic": "comparatives",
+      "explanation": "As + adjective + as for equal things; not as ... as for less.",
+      "multipleChoice": {
+        "prompt": "My English isn't ___ my Portuguese.",
+        "options": [
+          "as good as",
+          "as good than",
+          "so good like"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "The new office is twice as big ___ the old one.",
+        "accepted": [
+          "as"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "Foot volley is more fun that football.",
+        "accepted": [
+          "Foot volley is more fun than football."
+        ]
+      },
+      "transformation": {
+        "original": "The old phone was cheaper than the new one.",
+        "keyword": "as",
+        "before": "The old phone wasn't",
+        "after": "the new one.",
+        "maxWords": 3,
+        "accepted": [
+          "as expensive as"
+        ]
+      }
+    },
+    {
+      "id": "adverb-position-001",
+      "topic": "adverb-position",
+      "explanation": "Adverbs like just, only, really, always usually go before the main verb (and after 'to' is avoided).",
+      "multipleChoice": {
+        "prompt": "I would ___ the city first.",
+        "options": [
+          "just like to know",
+          "like just know",
+          "like know just"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I ___ (always / get up) at 6:30.",
+        "accepted": [
+          "always get up"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I go always to the gym in the morning.",
+        "accepted": [
+          "I always go to the gym in the morning."
+        ]
+      },
+      "transformation": {
+        "original": "I go to the gym every day without exception.",
+        "keyword": "always",
+        "before": "I",
+        "after": "to the gym.",
+        "maxWords": 2,
+        "accepted": [
+          "always go"
+        ]
+      }
+    },
+    {
+      "id": "adverb-position-002",
+      "topic": "adverb-position",
+      "explanation": "Adverbial phrases like 'from now on' or 'in the long run' usually go at the start or end of the sentence.",
+      "multipleChoice": {
+        "prompt": "___, I'll study grammar every day.",
+        "options": [
+          "From now on",
+          "Of now on",
+          "Since now"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "Investing is risky, but ___ the long run it pays off.",
+        "accepted": [
+          "in"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I visit often my parents.",
+        "accepted": [
+          "I often visit my parents."
+        ]
+      },
+      "transformation": {
+        "original": "Starting today, I'll study every day.",
+        "keyword": "on",
+        "before": "From",
+        "after": ", I'll study every day.",
+        "maxWords": 2,
+        "accepted": [
+          "now on"
+        ]
+      }
+    },
+    {
+      "id": "prepositions-001",
+      "topic": "prepositions",
+      "explanation": "At + time, on + day/date, in + month/year/part of the day.",
+      "multipleChoice": {
+        "prompt": "The meeting is ___ Monday ___ 10 a.m.",
+        "options": [
+          "on / at",
+          "in / at",
+          "at / on"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I was born ___ 1995.",
+        "accepted": [
+          "in"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I'll see you in Monday.",
+        "accepted": [
+          "I'll see you on Monday."
+        ]
+      },
+      "transformation": {
+        "original": "The conference is in May, on the 12th.",
+        "keyword": "on",
+        "before": "The conference is",
+        "after": ".",
+        "maxWords": 5,
+        "accepted": [
+          "on May 12th",
+          "on May 12",
+          "on 12 May",
+          "on the 12th of May"
+        ]
+      }
+    },
+    {
+      "id": "prepositions-002",
+      "topic": "prepositions",
+      "explanation": "Common verb + preposition pairs: depend on, listen to, wait for, agree with, be good at.",
+      "multipleChoice": {
+        "prompt": "It depends ___ the weather.",
+        "options": [
+          "on",
+          "of",
+          "from"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I agree ___ you.",
+        "accepted": [
+          "with"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I'm good in programming.",
+        "accepted": [
+          "I'm good at programming."
+        ]
+      },
+      "transformation": {
+        "original": "I'm skilled at public speaking.",
+        "keyword": "good",
+        "before": "I'm",
+        "after": "public speaking.",
+        "maxWords": 2,
+        "accepted": [
+          "good at"
+        ]
+      }
+    },
+    {
+      "id": "linking-words-001",
+      "topic": "linking-words",
+      "explanation": "Although/even though + clause (subject + verb). Despite/in spite of + noun or -ing. Never 'despite of'.",
+      "multipleChoice": {
+        "prompt": "___ the rain, we went to the beach.",
+        "options": [
+          "Despite",
+          "Although",
+          "Despite of"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "___ it was raining, we went to the beach. (Although / Despite)",
+        "accepted": [
+          "although",
+          "even though",
+          "though"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "Despite of the rain, we went to the beach.",
+        "accepted": [
+          "Despite the rain, we went to the beach.",
+          "In spite of the rain, we went to the beach."
+        ]
+      },
+      "transformation": {
+        "original": "It was raining, but we went to the beach.",
+        "keyword": "despite",
+        "before": "",
+        "after": ", we went to the beach.",
+        "maxWords": 3,
+        "accepted": [
+          "despite the rain",
+          "despite it raining"
+        ]
+      }
+    },
+    {
+      "id": "linking-words-002",
+      "topic": "linking-words",
+      "explanation": "Therefore/as a result introduce a consequence. Whereas contrasts two facts in one sentence.",
+      "multipleChoice": {
+        "prompt": "The project was late. ___, the client was unhappy.",
+        "options": [
+          "As a result",
+          "Whereas",
+          "Despite"
+        ],
+        "answer": 0
+      },
+      "gapFill": {
+        "prompt": "I love coffee, ___ my wife prefers tea. (whereas / therefore)",
+        "accepted": [
+          "whereas",
+          "while"
+        ]
+      },
+      "errorCorrection": {
+        "sentence": "I prefer coffee, therefore my wife prefers tea.",
+        "accepted": [
+          "I prefer coffee, whereas my wife prefers tea.",
+          "I prefer coffee, while my wife prefers tea."
+        ]
+      },
+      "transformation": {
+        "original": "The project was late, so the client was unhappy.",
+        "keyword": "result",
+        "before": "The project was late. As",
+        "after": ", the client was unhappy.",
+        "maxWords": 2,
+        "accepted": [
+          "a result"
+        ]
+      }
+    }
+  ]
+}
